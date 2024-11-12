@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import './Routeselector.css'
 import * as apiCall from './routeApifunc'
-import BusList from '../BusList/BusList'
+import BusList from '../BusList/buslist'
+
 export default function Routeselector() {
     const [dataInp, setData] = useState("")
     const [startCity, setStartCity] = useState('')
